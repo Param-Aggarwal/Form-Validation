@@ -6,9 +6,6 @@ input{
   display: block;
 }
 
-#form-validation{
-  border: 1px solid #333;
-}
 #username,
 #password,
 #password-confirmation{
@@ -22,12 +19,8 @@ input{
 }
 
 .heading{
-  color: red;
-  margin-bottom: 0;
-}
-.sub-heading{
+  color: #2b0d97;
   margin-top: 0;
-  margin-left: 15px;
 }
 .errors{
   display: none;
