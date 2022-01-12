@@ -6,6 +6,9 @@ input{
   display: block;
 }
 
+#form-id{
+  border: 1px solid #333;
+}
 #username,
 #password,
 #password-confirmation{
@@ -18,6 +21,14 @@ input{
   display: inline;
 }
 
+.heading{
+  color: red;
+  margin-bottom: 0;
+}
+.sub-heading{
+  margin-top: 0;
+  margin-left: 15px;
+}
 .errors{
   display: none;
 }
