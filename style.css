@@ -1,0 +1,38 @@
+body{
+  font-size: 1.5em;
+  padding: 20px;
+}
+input{
+  display: block;
+}
+
+#username,
+#password,
+#password-confirmation{
+  width: 200px;
+  height: 25px;
+}
+#terms,
+#password-show,
+#password-confirmation-show{
+  display: inline;
+}
+
+.errors{
+  display: none;
+}
+.errors.show{
+  display: inline-block;
+  background-color: #D93D32;
+  padding: 5px 20px 10px;
+  border-radius: 20px;
+}
+.show-password-label{
+  font-size: 1.2rem;
+}
+.form-item{
+  line-height: 2;
+}
+.submit-button{
+  padding: 5px 10px;
+}
